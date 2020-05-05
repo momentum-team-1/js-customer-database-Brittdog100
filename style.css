@@ -1,0 +1,32 @@
+#customer {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+#customer > * {
+    display: block;
+    margin: 0 auto;
+}
+
+* {
+    font-family: "Open Sans";
+}
+
+h3 {
+    font-family: "Oswald";
+}
+
+#customer > img {
+    border-radius: 100%;
+    transition: border-radius 1s ease-in-out;
+}
+
+#customer:hover > img {
+    border-radius: 25%;
+    transition: border-radius 0.25s ease-in-out;
+}
+
+.email {
+    color: gray;
+}
