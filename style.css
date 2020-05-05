@@ -19,12 +19,15 @@ h3 {
 
 #customer > img {
     border-radius: 100%;
-    transition: border-radius 1s ease-in-out;
+    transition: border-radius 1.5s ease-in 0.25s;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 2px;
 }
 
 #customer:hover > img {
     border-radius: 25%;
-    transition: border-radius 0.25s ease-in-out;
+    transition: border-radius 0.25s ease;
 }
 
 .email {
